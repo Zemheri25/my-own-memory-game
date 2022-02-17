@@ -3,3 +3,4 @@
 #All algorithms belong to me.
 #I will improve the game by one by.
 #Enjoy It.
+#The algorithms are very long for now.Also I will cover it nowadays.
