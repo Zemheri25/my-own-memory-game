@@ -175,7 +175,7 @@ function open1() {
     if(pokarray.length < 2){
        let firstClass = item1.firstChild.classList[1];
        pokarray.push(firstClass)
-       console.log(pokarray)
+       
     }
     
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -183,21 +183,21 @@ function open1() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
 
        
@@ -219,7 +219,7 @@ function open2() {
     if(pokarray.length < 2){
         let firstClass = item2.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -227,27 +227,27 @@ function open2() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening")
-                    pokarray = [];
                     console.log(pokarray)
+                    pokarray = [];
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
 
     
        
 }
-console.log(pokarray)  
+
 
 box3.addEventListener("click", open3);
 
@@ -260,7 +260,7 @@ function open3() {
     if(pokarray.length < 2){
         let firstClass = item3.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -268,21 +268,21 @@ function open3() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = [];
                     console.log(pokarray)
+                    pokarray = [];
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
 
     
@@ -299,7 +299,7 @@ function open4() {
     if(pokarray.length < 2){
         let firstClass = item4.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -307,21 +307,21 @@ function open4() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+       
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -337,7 +337,7 @@ function open5() {
     if(pokarray.length < 2){
         let firstClass = item5.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -345,21 +345,21 @@ function open5() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
 
     
@@ -377,7 +377,7 @@ function open6() {
     if(pokarray.length < 2){
         let firstClass = item6.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
     
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -385,21 +385,21 @@ function open6() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -416,7 +416,7 @@ function open7() {
     if(pokarray.length < 2){
         let firstClass = item7.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     }
     
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -424,21 +424,21 @@ function open7() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
 
     
@@ -455,7 +455,7 @@ function open8() {
     if(pokarray.length < 2){
         let firstClass = item8.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -463,21 +463,21 @@ function open8() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
+                    console.log(pokarray);
                     pokarray = []; 
-                    console.log(pokarray)
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray);
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -494,7 +494,7 @@ function open9() {
     if(pokarray.length < 2){
         let firstClass = item9.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -502,21 +502,21 @@ function open9() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -533,7 +533,7 @@ function open10() {
     if(pokarray.length < 2){
         let firstClass = item10.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -541,21 +541,21 @@ function open10() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -571,7 +571,7 @@ function open11() {
     if(pokarray.length < 2){
         let firstClass = item11.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     }
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -579,21 +579,21 @@ function open11() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -609,7 +609,7 @@ function open12() {
     if(pokarray.length < 2){
         let firstClass = item12.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -617,21 +617,21 @@ function open12() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
 }
@@ -647,7 +647,7 @@ function open13() {
     if(pokarray.length < 2){
         let firstClass = item13.firstChild.classList[1];
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -655,21 +655,21 @@ function open13() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
 
     
@@ -686,7 +686,7 @@ function open14() {
     if(pokarray.length < 2){
         
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     }
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -694,21 +694,21 @@ function open14() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
     
@@ -724,7 +724,7 @@ function open15() {
     let firstClass = item15.firstChild.classList[1];
     if(pokarray.length < 2){
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     } 
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -732,21 +732,21 @@ function open15() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                 pokarray = [];
             }
-        },3000)
+        }
     }
     
     
@@ -762,7 +762,7 @@ function open16() {
     let firstClass = item16.firstChild.classList[1];
     if(pokarray.length < 2){
         pokarray.push(firstClass)
-        console.log(pokarray)
+        
     }
 
     if(pokarray.length == 2 && pokarray[0] != pokarray[1]) {
@@ -770,22 +770,24 @@ function open16() {
             for(let i = 0; i < BoxArr.length; i++) {
                 if(BoxArr[i].classList[2] == "opening") {
                     BoxArr[i].classList.remove("opening");
-                    pokarray = []; 
                     console.log(pokarray)
+                    pokarray = []; 
                     
                 }
             }
-        },3000);
+        },1500);
     }else if(pokarray[0] == pokarray[1]) {
-        pokarray = []
+        
         console.log(pokarray)
-        setTimeout(() => {
-            for (let i = 0; i < BoxArr.length; i++) {
-                if(BoxArr[i].classList[2] == "opening") {
-                    BoxArr[i].classList.add("nothing")
-                }
+        
+        for (let i = 0; i < BoxArr.length; i++) {
+            if(BoxArr[i].classList[2] == "opening") {
+                BoxArr[i].classList.add("nothing");
+                console.log(pokarray)
+                pokarray = [];
             }
-        },3000)
+        }
+        
     }
 
     
