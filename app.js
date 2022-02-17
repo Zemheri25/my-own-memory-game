@@ -33,7 +33,7 @@ let item14 = document.querySelector(".item14");
 let item15 = document.querySelector(".item15");
 let item16 = document.querySelector(".item16");
 
-let sonuch1 = document.querySelector(".sonuch1");
+let againbutton = document.getElementById("againbutton")
 
 
 
@@ -44,10 +44,6 @@ let newArr = [];
 let BoxArr = [box1, box2, box3, box4, box5, box6, box7, box8, box9, box10, box11, box12, box13, box14, box15, box16]
 
 function addimage() {
-
-    
-
-    
     for (let i = 0; i < 1000 ; i++) {
         let choose = myArr[Math.floor(Math.random()*myArr.length)];
         if(!newArr.includes(choose)) {
@@ -55,12 +51,6 @@ function addimage() {
         }
     }
    
-    
-
-    console.log()
-
-
-
     let image1 = document.createElement("img");
     image1.src = "./backround-image-pokemon/image1.png"
     image1.classList.add("pokemon1");
@@ -158,7 +148,7 @@ function addimage() {
     image16.classList.add("pok8")
     newArr[15].appendChild(image16)
 
-    
+    console.log(newArr)
 }
 
 let counter = 0;
@@ -792,4 +782,16 @@ function open16() {
 
     
     
+}
+
+againbutton.addEventListener("click", again1);
+
+function again1() {
+     for (let i = 0; i < 16 ; i++) {
+        BoxArr[i].classList.remove("opening");
+        BoxArr[i].classList.remove("nothing");
+    }
+
+    pokarray = [];
+
 }
