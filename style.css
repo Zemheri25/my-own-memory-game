@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-image: url(./backround-image-pokemon/backround-image.jpg);
@@ -96,4 +97,33 @@ body{
 
 .item1,.item5, .item9, .item13 {
     margin-left: 0rem;
+}
+
+.welcome {
+    color: white;
+    background-image: linear-gradient(120deg,#6f98b9, #2571e4);
+    width: 35rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    border-top-right-radius: 10px;
+    margin: 0rem auto;
+
+}
+
+.footer {
+    background-image: linear-gradient(120deg,#6f98b9, #2571e4);
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border: 4px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 35rem auto;
+    color: white;
+
 }
