@@ -4,3 +4,4 @@
 #I will improve the game one by one.
 #Enjoy It.
 #The algorithms are very long for now.Also I will cover it nowadays.
+![] (images/memory%20game.JPG)
